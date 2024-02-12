@@ -1,6 +1,6 @@
 body {
   font-family: "Times New Roman", Times, serif;
-  margin: 0;
+  margin: 0 auto;
 }
 .header {
   display: flex;
@@ -70,6 +70,9 @@ ul {
   align-self: center;
   margin: 25px 25px 70px;
 }
+.sectiontwo {
+  height: 30vh;
+}
 .sectiontwo .cards {
   display: flex;
   justify-content: center;
@@ -89,7 +92,7 @@ ul {
   font-size: 36px;
   font-weight: bold;
   color: #1f2937;
-  margin: 20px;
+  margin: 50px;
 }
 .cardinfo {
   text-align: center;
@@ -100,4 +103,27 @@ ul {
 .cardinfo .cardtext {
   font-size: 12px;
   color: black;
+}
+.sectionthree {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  margin-top: 30px;
+  height: 45vh;
+}
+.quote .quotext {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+  max-width: 40rem;
+}
+.quote .credentials {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1f2937;
+  display: flex;
+  justify-content: flex-end;
+  margin: 30px;
 }
