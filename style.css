@@ -127,3 +127,47 @@ ul {
   justify-content: flex-end;
   margin: 30px;
 }
+.sectionfour {
+  background-color: #3882f6;
+  padding: 30px;
+  color: white;
+  margin: 30px auto;
+  max-width: 1000px;
+  border-radius: 1em;
+}
+.container {
+  display: flex;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-content: center;
+}
+.info .title {
+  font-size: 25px;
+}
+
+.info .subtext {
+  font-size: 16px;
+  justify-content: center;
+  align-self: flex-end;
+  align-content: flex-start;
+}
+
+.clickme {
+  background-color: #3882f6;
+  width: 8em;
+  height: 3em;
+  color: white;
+  padding: 10px;
+  border-radius: 1em;
+  border-color: white;
+}
+
+.container .button {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-self: flex-end;
+}
