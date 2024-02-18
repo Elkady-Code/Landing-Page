@@ -131,7 +131,7 @@ ul {
   background-color: #3882f6;
   padding: 30px;
   color: white;
-  margin: 30px auto;
+  margin: 90px auto;
   max-width: 1000px;
   border-radius: 1em;
 }
@@ -170,4 +170,14 @@ ul {
   flex: 1;
   justify-content: center;
   align-self: flex-end;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  align-content: center;
+  padding: 20px;
+  text-align: center;
+  color: white;
 }
